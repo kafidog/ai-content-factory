@@ -1,0 +1,5 @@
+{
+  "completed": true,
+  "scope": "governance-only",
+  "summary": "Validate this branch's persistent context and DoneAudit integration only; no product completion claim."
+}

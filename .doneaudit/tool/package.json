@@ -1,0 +1,71 @@
+{
+  "name": "doneaudit",
+  "version": "0.1.0",
+  "description": "Your AI says done. Verify the evidence: a reproducible trust score in your terminal and GitHub.",
+  "bin": {
+    "agent-done-or-not": "bin/agent-done-or-not.js",
+    "doneaudit": "bin/doneaudit.js"
+  },
+  "scripts": {
+    "smoke": "node bin/agent-done-or-not.js --help",
+    "test": "node --test tests/doneaudit.test.js",
+    "build": "node --check bin/doneaudit.js",
+    "check": "node --check bin/execute-check.js",
+    "demo": "node scripts/demo.js",
+    "verify": "node scripts/verify.js"
+  },
+  "files": [
+    "bin/",
+    "done-gate.sh",
+    "stop-gate.sh",
+    "done-gate.ps1",
+    "stop-gate.ps1",
+    "subagent-audit.sh",
+    "subagent-audit.ps1",
+    "proof.schema.json",
+    "claim.schema.json",
+    "policy.schema.json",
+    "CLAUDE.md",
+    "AGENTS.md",
+    ".cursorrules",
+    ".windsurfrules",
+    ".clinerules",
+    ".goosehints",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": "mohamedzhioua",
+  "homepage": "https://github.com/kafidog/DoneAudit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafidog/DoneAudit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kafidog/DoneAudit/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "windsurf",
+    "cline",
+    "roo",
+    "zed",
+    "goose",
+    "ai-agents",
+    "ci",
+    "verification",
+    "verification-receipt",
+    "proof-of-done",
+    "hooks",
+    "anti-hallucination",
+    "reward-hacking",
+    "tamper-evident",
+    "enforcement"
+  ]
+}

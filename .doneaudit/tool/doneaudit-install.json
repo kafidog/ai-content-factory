@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "files": {
+    "bin/doneaudit.js": "b790c2aeb672b3f074a2008b95eec65599ae509dfd7e1e2c386cc0a2bd23281c",
+    "bin/execute-check.js": "77b12631932989313d55dfef3063dcc5fb13b1fe88718b69c986eb3650027d12",
+    "bin/agent-done-or-not.js": "6633c18593738594c299b580f36c0983534e4b403985a80959b7682a391f2225",
+    "done-gate.sh": "6f8a6fd1dad47d806d3be0ba98ca5723be4b7569c08c01e821a3eff63fb4eb2c",
+    "done-gate.ps1": "32af01532d571fe533bcf8f22a2f87f272db46acb74f2334f894569fd156bf5c",
+    "stop-gate.sh": "1e9763fcee00bb0b8e7d1a97ad0aa5465af66b8f2898ac0a809568aad82f7a1e",
+    "stop-gate.ps1": "158d0b513c42a30094b2ba3aeafff3f7a6eb1ab9f28b8b3b926d4eeaebe003fb",
+    "subagent-audit.sh": "75b09a5936ac078756f2ded8f78599c8a731f7ac916905a673045c2ac8077979",
+    "subagent-audit.ps1": "db8e4e6a1c597ddfa697512d3776267c057d4af363088da9ecf50742cd1bb456",
+    "LICENSE": "8e82f43184a1ef08852455402a1d82fa67b583c99968f4661163e525bad5a709",
+    "THIRD_PARTY_NOTICES.md": "e6e0ec0e053541e4959190640f4a8745aa0161e1f7b74f960b743b0f8348e37c",
+    "package.json": "0d645ca6e1ffff48d199a38b1ba4229be27f023f50ff480e91efab1db93a9ee0"
+  },
+  "sourceRevision": "2900f2dec4c8f6905412e23e8947b45eb1071bd2"
+}

@@ -33,3 +33,7 @@ browser-profile*
 .idea/
 .DS_Store
 Thumbs.db
+
+/.doneaudit/evidence/
+
+/.agent-proof/

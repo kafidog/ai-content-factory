@@ -52,6 +52,11 @@
   },
   "checks": [
     {
+      "label": "public-security",
+      "group": "required",
+      "command": "python -B scripts/security_scan.py --root . --brand-hash-file scripts/public_brand_hashes.sha256 --format text"
+    },
+    {
       "label": "diff",
       "group": "required",
       "command": "git diff --check 9f1bf8a1ca0d51ff45d0db88446630223888e04d --"
